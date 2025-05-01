@@ -1,0 +1,89 @@
+### create profile open admin
+POST localhost:8080/api/v1/profile
+Content-Type: application/json
+
+{
+  "name": "Vali",
+  "surname": "Valiyev",
+  "phone": "+998908070177",
+  "email": "publisher@gmail.com",
+  "password": "123456",
+  "role": "PUBLISHER"
+}
+
+### create profile
+POST localhost:8080/api/v1/profile/admin
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzUxMiJ9.eyJpYXQiOjE3Mzg3NTA0MzksImV4cCI6MTczODgzNjgzOSwiaXNzIjoiS3VuIHV6IHRlc3QgcG9ydGFsaSIsImlkIjoiZGIzMzg2YzktYzk0My00YWJjLWE5ZTktYjQyNjQ1MGRjZjgzIiwicm9sZSI6IkFETUlOIn0.JKpF5XH-z7G0B6xapl8nXvFbmV_16K2B6jx9c-u9-xHIXwxVTnRQtLfm5p2Tn330plkl8MJtndRyo8dOkHF7ZA
+
+{
+  "name": "Ali",
+  "surname": "Aliyev",
+  "phone": "+998908070507",
+  "email": "alh2@gmail.com",
+  "password": "1235456",
+  "role": "ADMIN"
+}
+
+### create profile
+POST localhost:8080/api/v1/profile
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzUxMiJ9.eyJpYXQiOjE3Mzg4Mzc5NzcsImV4cCI6MTczODkyNDM3NywiaXNzIjoiS3VuIHV6IHRlc3QgcG9ydGFsaSIsImlkIjoiMWNlYjlkNWUtNGYyNS00OWQ4LTk1YzctNjJlNGEzOTc3ZjdmIiwicm9sZSI6IkFETUlOIn0.wm1R9HxXD8b0XYlRj0YbIXXqn4SRYq-j6a4JtVQnWgq2nyk_Q4nTQvBgbRmIMGP__fixZa1lUGnpQ0XofaM3OA
+
+{
+  "name": "VAli",
+  "surname": "VAliyev",
+  "phone": "+998908070177",
+  "email": "vali2@gmail.com",
+  "password": "123456",
+  "role": "PUBLISHER"
+}
+
+
+### update profile
+PUT localhost:8080/api/v1/profile/5d88a2e9-32d9-4c79-9772-43b7bca05f8a
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzUxMiJ9.eyJpYXQiOjE3Mzg2ODExNTgsImV4cCI6MTczODc2NzU1OCwiaXNzIjoiS3VuIHV6IHRlc3QgcG9ydGFsaSIsImlkIjoiODVlZmU2MTMtNjAwYS00OTYxLTk4ZjUtNWIwNWVkOGMyMDZmIiwicm9sZSI6IkFETUlOIn0.3GyJ7OVIpu_TyeUdWyOJWw271yUXNQQ-nHIfosBdcgKWC-bP10-3jlt-T6oyWzHCLM6Fl290SZy5UxMlIZ2nfw
+
+{
+  "name": "Vali",
+  "surname": "Valiyev"
+}
+
+### update profile by admin
+PUT localhost:8080/api/v1/profile/admin/updateByAdmin/56d5e648-455a-4297-801f-43b2177deb05
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzUxMiJ9.eyJpYXQiOjE3Mzg4Mzc5NzcsImV4cCI6MTczODkyNDM3NywiaXNzIjoiS3VuIHV6IHRlc3QgcG9ydGFsaSIsImlkIjoiMWNlYjlkNWUtNGYyNS00OWQ4LTk1YzctNjJlNGEzOTc3ZjdmIiwicm9sZSI6IkFETUlOIn0.wm1R9HxXD8b0XYlRj0YbIXXqn4SRYq-j6a4JtVQnWgq2nyk_Q4nTQvBgbRmIMGP__fixZa1lUGnpQ0XofaM3OA
+
+{
+  "name": "Eshmat",
+  "surname": "Eshamtov",
+  "email":"updated@email.com",
+  "phone": "907771717",
+  "status": "ACTIVE",
+  "role": "MODERATOR",
+  "visible": true
+}
+
+### get all profile
+GET localhost:8080/api/v1/profile/profileAllPagination?page=1&size=10
+### get filter pagination profile
+POST localhost:8080/api/v1/profile/filter?page=1&size=30
+Content-Type: application/json
+
+{
+  "name": "Ali",
+  "surname": "VAliyev",
+  "phone": "+998908070177",
+  "role": "PUBLISHER",
+  "from": "2025-02-03",
+  "to": "2025-02-05"
+}
+
+### delete profile by admin
+
+DELETE localhost:8080/api/v1/profile/674588d9-7a25-47a1-8dcc-ed0a9a549f97
+
+#### update photo any
+PUT localhost:8080/api/v1/profile/admin/updatePhoto/6750673c-ee54-44ab-965e-ff4a57386d6d
+Authorization: Bearer eyJhbGciOiJIUzUxMiJ9.eyJpYXQiOjE3Mzg4Mzk1NTUsImV4cCI6MTczODkyNTk1NSwiaXNzIjoiS3VuIHV6IHRlc3QgcG9ydGFsaSIsImlkIjoiMGQxZGMxMmUtMTcxYS00YmJhLWI3MGItZDhmZWY3ZDNiZjdmIiwicm9sZSI6IkFETUlOIn0.OQWpTTvtbxzph0QcrtB2RNUBqJNnQIRxRXFFTynIsAxJMXLzJhn198XKG5LeN_iA-T78GYlSjdZ-aNKmWkENkA

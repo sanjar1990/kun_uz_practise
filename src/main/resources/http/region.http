@@ -1,0 +1,34 @@
+### create region
+POST localhost:8080/api/v1/region/admin
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzUxMiJ9.eyJpYXQiOjE3Mzk2MTg1NjQsImV4cCI6MTczOTcwNDk2NCwiaXNzIjoiS3VuIHV6IHRlc3QgcG9ydGFsaSIsInBob25lIjoiKzk5ODkwODA3MDEwMSIsInJvbGUiOiJST0xFX0FETUlOIn0.kOb9lJWu0hJh2mLhV_q4Y7_LuhhmgIWOt9tN7-HvAAEKQjcEU2Oly28qq6Wjs0p9eKNsOTXsqebgLhKhuRyXww
+
+{
+  "nameEn": "Tashkents en",
+  "nameRu": "Tashkents ru",
+  "nameUz": "Toshkents uz",
+  "orderNum": 2
+}
+
+### update region
+PUT localhost:8080/api/v1/region/1
+Content-Type: application/json
+
+{
+  "nameEn": "Samarqand",
+  "nameRu": "Samarkand",
+  "nameUz": "Samarqand",
+  "orderNum": 2
+}
+
+### region delete
+DELETE localhost:8080/api/v1/region/2
+
+### get all region
+
+GET localhost:8080/api/v1/region/admin
+Authorization: Bearer eyJhbGciOiJIUzUxMiJ9.eyJpYXQiOjE3Mzg2ODExNTgsImV4cCI6MTczODc2NzU1OCwiaXNzIjoiS3VuIHV6IHRlc3QgcG9ydGFsaSIsImlkIjoiODVlZmU2MTMtNjAwYS00OTYxLTk4ZjUtNWIwNWVkOGMyMDZmIiwicm9sZSI6IkFETUlOIn0.3GyJ7OVIpu_TyeUdWyOJWw271yUXNQQ-nHIfosBdcgKWC-bP10-3jlt-T6oyWzHCLM6Fl290SZy5UxMlIZ2nfw
+
+### get by language
+GET localhost:8080/api/v1/region/lang
+Accept-Language: ru

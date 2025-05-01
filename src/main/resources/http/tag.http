@@ -1,0 +1,10 @@
+### create tag
+POST localhost:8080/api/v1/tag/admin?name=economy
+Authorization: Bearer eyJhbGciOiJIUzUxMiJ9.eyJpYXQiOjE3MzkxODAyNzIsImV4cCI6MTczOTI2NjY3MiwiaXNzIjoiS3VuIHV6IHRlc3QgcG9ydGFsaSIsImlkIjoiODEyNzQ0MTEtYjAyZi00N2RhLTk2ZTEtNmQ4ZWVmOGEzNjQxIiwicm9sZSI6IkFETUlOIn0.AE1pJCtmcHFfX7ojfBX8TIwF8051FbyRs4UjE9RtlKDemsaTv_DQzb2mCW12SS6osKpxCtr2mWHtL2XsMd5SGQ
+### Delete tag
+DELETE localhost:8080/api/v1/tag/admin/d4e07e6e-b4f9-48b8-864e-ef43f1383a42
+Authorization: Bearer eyJhbGciOiJIUzUxMiJ9.eyJpYXQiOjE3MzkxODAyNzIsImV4cCI6MTczOTI2NjY3MiwiaXNzIjoiS3VuIHV6IHRlc3QgcG9ydGFsaSIsImlkIjoiODEyNzQ0MTEtYjAyZi00N2RhLTk2ZTEtNmQ4ZWVmOGEzNjQxIiwicm9sZSI6IkFETUlOIn0.AE1pJCtmcHFfX7ojfBX8TIwF8051FbyRs4UjE9RtlKDemsaTv_DQzb2mCW12SS6osKpxCtr2mWHtL2XsMd5SGQ
+### get by id
+GET localhost:8080/api/v1/tag/d4e07e6e-b4f9-48b8-864e-ef43f1383a42
+### get all
+GET localhost:8080/api/v1/tag/getAll

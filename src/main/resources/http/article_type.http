@@ -1,0 +1,45 @@
+### create article type Admin
+POST localhost:8080/api/v1/articleType/admin
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzUxMiJ9.eyJpYXQiOjE3Mzg4NDExNzgsImV4cCI6MTczODkyNzU3OCwiaXNzIjoiS3VuIHV6IHRlc3QgcG9ydGFsaSIsImlkIjoiYmVkZWJiNjItMTYzOC00ZDY0LTljMmItZDE0NjgyMzUxMjExIiwicm9sZSI6IkFETUlOIn0.k4YxVPms0aIoDOBN_EbBdYgNmrfooNj2FjMTuae2-sPfr77WZHEhkg3uuwwE6YA_5K82f-q4S1YGNc80nN7wuw
+
+{
+  "nameEn": "Main",
+  "nameRu": "Vajniy",
+  "nameUz": "Asosiy",
+  "orderNum": 1
+}
+### create article type two by Admin
+POST localhost:8080/api/v1/articleType/admin
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzUxMiJ9.eyJpYXQiOjE3Mzg5NDAyNTAsImV4cCI6MTczOTAyNjY1MCwiaXNzIjoiS3VuIHV6IHRlc3QgcG9ydGFsaSIsImlkIjoiODEyNzQ0MTEtYjAyZi00N2RhLTk2ZTEtNmQ4ZWVmOGEzNjQxIiwicm9sZSI6IkFETUlOIn0.lECAK8KdsStVyC4MBYd24ry4cTd7CTMabphkqv6zsZ4g8bKvu5jO6VA23wVSvEx61WwN5B0rdWJMLcEzA8LbBg
+
+{
+  "nameEn": "Article",
+  "nameRu": "Statya",
+  "nameUz": "Maqola,",
+  "orderNum": 2
+}
+
+
+### update article type admin
+PUT localhost:8080/api/v1/articleType/1
+Content-Type:application/json
+
+{
+  "nameEn": "Article",
+  "nameRu": "Statya",
+  "nameUz": "Maqola,",
+  "orderNum": 2
+}
+
+### delete articleType
+DELETE localhost:8080/api/v1/articleType/1
+
+### get all pagination
+
+GET localhost:8080/api/v1/articleType/getAll?page=1&size=10
+
+### get by lang
+GET localhost:8080/api/v1/articleType/getByLang
+Accept-Language: ru

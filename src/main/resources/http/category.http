@@ -1,0 +1,36 @@
+### create category
+POST localhost:8080/api/v1/category/admin
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzUxMiJ9.eyJpYXQiOjE3Mzg4NDExNzgsImV4cCI6MTczODkyNzU3OCwiaXNzIjoiS3VuIHV6IHRlc3QgcG9ydGFsaSIsImlkIjoiYmVkZWJiNjItMTYzOC00ZDY0LTljMmItZDE0NjgyMzUxMjExIiwicm9sZSI6IkFETUlOIn0.k4YxVPms0aIoDOBN_EbBdYgNmrfooNj2FjMTuae2-sPfr77WZHEhkg3uuwwE6YA_5K82f-q4S1YGNc80nN7wuw
+
+{
+  "nameEn": "Economy en",
+  "nameRu": "Ekonomika ru",
+  "nameUz": "Iqtisodiyot uz",
+  "orderNum": 2
+}
+
+### update category
+PUT localhost:8080/api/v1/category/admin/1
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzUxMiJ9.eyJpYXQiOjE3Mzg4NDExNzgsImV4cCI6MTczODkyNzU3OCwiaXNzIjoiS3VuIHV6IHRlc3QgcG9ydGFsaSIsImlkIjoiYmVkZWJiNjItMTYzOC00ZDY0LTljMmItZDE0NjgyMzUxMjExIiwicm9sZSI6IkFETUlOIn0.k4YxVPms0aIoDOBN_EbBdYgNmrfooNj2FjMTuae2-sPfr77WZHEhkg3uuwwE6YA_5K82f-q4S1YGNc80nN7wuw
+
+{
+  "nameEn": "World",
+  "nameRu": "Mir",
+  "nameUz": "Jaxon",
+  "orderNum": 2
+}
+
+### category delete
+DELETE localhost:8080/api/v1/category/admin/12
+Authorization: Bearer eyJhbGciOiJIUzUxMiJ9.eyJpYXQiOjE3Mzg4NDExNzgsImV4cCI6MTczODkyNzU3OCwiaXNzIjoiS3VuIHV6IHRlc3QgcG9ydGFsaSIsImlkIjoiYmVkZWJiNjItMTYzOC00ZDY0LTljMmItZDE0NjgyMzUxMjExIiwicm9sZSI6IkFETUlOIn0.k4YxVPms0aIoDOBN_EbBdYgNmrfooNj2FjMTuae2-sPfr77WZHEhkg3uuwwE6YA_5K82f-q4S1YGNc80nN7wuw
+
+### get all category
+
+GET localhost:8080/api/v1/category/admin
+Authorization: Bearer eyJhbGciOiJIUzUxMiJ9.eyJpYXQiOjE3Mzg4NDExNzgsImV4cCI6MTczODkyNzU3OCwiaXNzIjoiS3VuIHV6IHRlc3QgcG9ydGFsaSIsImlkIjoiYmVkZWJiNjItMTYzOC00ZDY0LTljMmItZDE0NjgyMzUxMjExIiwicm9sZSI6IkFETUlOIn0.k4YxVPms0aIoDOBN_EbBdYgNmrfooNj2FjMTuae2-sPfr77WZHEhkg3uuwwE6YA_5K82f-q4S1YGNc80nN7wuw
+
+### get by language
+GET localhost:8080/api/v1/category/lang
+Accept-Language: ru

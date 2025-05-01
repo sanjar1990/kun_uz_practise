@@ -1,0 +1,64 @@
+20 Feb 2025 - 13:20:13.730 - c.example.KunUzPractiseApplication -  INFO  - Starting KunUzPractiseApplication using Java 21.0.6 with PID 17968 (C:\Users\Sanjar\IdeaProjects\kun_uz_practise\target\classes started by Sanjar in C:\Users\Sanjar\IdeaProjects\kun_uz_practise)
+20 Feb 2025 - 13:20:13.745 - c.example.KunUzPractiseApplication -  INFO  - The following 1 profile is active: "local"
+20 Feb 2025 - 13:20:14.741 - o.s.d.r.c.RepositoryConfigurationDelegate -  INFO  - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+20 Feb 2025 - 13:20:14.836 - o.s.d.r.c.RepositoryConfigurationDelegate -  INFO  - Finished Spring Data repository scanning in 86 ms. Found 14 JPA repository interfaces.
+20 Feb 2025 - 13:20:15.419 - o.s.b.w.e.tomcat.TomcatWebServer -  INFO  - Tomcat initialized with port 8080 (http)
+20 Feb 2025 - 13:20:15.434 - o.a.catalina.core.StandardService -  INFO  - Starting service [Tomcat]
+20 Feb 2025 - 13:20:15.435 - o.a.catalina.core.StandardEngine -  INFO  - Starting Servlet engine: [Apache Tomcat/10.1.34]
+20 Feb 2025 - 13:20:15.532 - o.a.c.c.C.[Tomcat].[localhost].[/] -  INFO  - Initializing Spring embedded WebApplicationContext
+20 Feb 2025 - 13:20:15.533 - o.s.b.w.s.c.ServletWebServerApplicationContext -  INFO  - Root WebApplicationContext: initialization completed in 1750 ms
+20 Feb 2025 - 13:20:15.616 - com.zaxxer.hikari.HikariDataSource -  INFO  - HikariPool-1 - Starting...
+20 Feb 2025 - 13:20:16.044 - com.zaxxer.hikari.pool.HikariPool -  INFO  - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@5345dfe8
+20 Feb 2025 - 13:20:16.048 - com.zaxxer.hikari.HikariDataSource -  INFO  - HikariPool-1 - Start completed.
+20 Feb 2025 - 13:20:16.257 - o.h.jpa.internal.util.LogHelper -  INFO  - HHH000204: Processing PersistenceUnitInfo [name: default]
+20 Feb 2025 - 13:20:16.469 - org.hibernate.Version -  INFO  - HHH000412: Hibernate ORM core version 6.6.5.Final
+20 Feb 2025 - 13:20:16.507 - o.h.c.i.RegionFactoryInitiator -  INFO  - HHH000026: Second-level cache disabled
+20 Feb 2025 - 13:20:16.793 - o.s.o.j.p.SpringPersistenceUnitInfo -  INFO  - No LoadTimeWeaver setup: ignoring JPA class transformer
+20 Feb 2025 - 13:20:16.905 - o.hibernate.orm.connections.pooling -  INFO  - HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 17.2
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+20 Feb 2025 - 13:20:18.050 - o.h.e.t.j.p.i.JtaPlatformInitiator -  INFO  - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+20 Feb 2025 - 13:20:18.722 - o.s.o.j.LocalContainerEntityManagerFactoryBean -  INFO  - Initialized JPA EntityManagerFactory for persistence unit 'default'
+20 Feb 2025 - 13:20:18.980 - o.s.d.j.r.query.QueryEnhancerFactory -  INFO  - Hibernate is in classpath; If applicable, HQL parser will be used.
+20 Feb 2025 - 13:20:20.629 - o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration -  WARN  - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+20 Feb 2025 - 13:20:20.660 - o.s.s.c.a.a.c.InitializeAuthenticationProviderBeanManagerConfigurer$InitializeAuthenticationProviderManagerConfigurer -  INFO  - Global AuthenticationManager configured with AuthenticationProvider bean with name authenticationProvider
+20 Feb 2025 - 13:20:20.661 - o.s.s.c.a.a.c.InitializeUserDetailsBeanManagerConfigurer$InitializeUserDetailsManagerConfigurer -  WARN  - Global AuthenticationManager configured with an AuthenticationProvider bean. UserDetailsService beans will not be used by Spring Security for automatically configuring username/password login. Consider removing the AuthenticationProvider bean. Alternatively, consider using the UserDetailsService in a manually instantiated DaoAuthenticationProvider. If the current configuration is intentional, to turn off this warning, increase the logging level of 'org.springframework.security.config.annotation.authentication.configuration.InitializeUserDetailsBeanManagerConfigurer' to ERROR
+20 Feb 2025 - 13:20:21.394 - o.s.b.w.e.tomcat.TomcatWebServer -  INFO  - Tomcat started on port 8080 (http) with context path '/'
+20 Feb 2025 - 13:20:21.401 - c.example.KunUzPractiseApplication -  INFO  - Started KunUzPractiseApplication in 8.144 seconds (process running for 8.899)
+20 Feb 2025 - 13:20:21.455 - o.f.c.i.license.VersionPrinter -  INFO  - Flyway Community Edition 9.22.3 by Redgate
+20 Feb 2025 - 13:20:21.456 - o.f.c.i.license.VersionPrinter -  INFO  - See release notes here: https://rd.gt/416ObMi
+20 Feb 2025 - 13:20:21.456 - o.f.c.i.license.VersionPrinter -  INFO  - 
+20 Feb 2025 - 13:20:21.469 - org.flywaydb.core.FlywayExecutor -  INFO  - Database: jdbc:postgresql://localhost:5432/kun_uz_practise (PostgreSQL 17.2)
+20 Feb 2025 - 13:20:21.474 - o.f.c.i.database.base.Database -  WARN  - Flyway upgrade recommended: PostgreSQL 17.2 is newer than this version of Flyway and support has not been tested. The latest supported version of PostgreSQL is 15.
+20 Feb 2025 - 13:20:21.502 - o.f.core.internal.command.DbValidate -  INFO  - Successfully validated 4 migrations (execution time 00:00.021s)
+20 Feb 2025 - 13:20:21.511 - o.f.core.internal.command.DbMigrate -  INFO  - Current version of schema "public": 1.2
+20 Feb 2025 - 13:20:21.515 - o.f.core.internal.command.DbMigrate -  INFO  - Schema "public" is up to date. No migration necessary.
+20 Feb 2025 - 13:20:33.239 - o.a.c.c.C.[Tomcat].[localhost].[/] -  INFO  - Initializing Spring DispatcherServlet 'dispatcherServlet'
+20 Feb 2025 - 13:20:33.240 - o.s.web.servlet.DispatcherServlet -  INFO  - Initializing Servlet 'dispatcherServlet'
+20 Feb 2025 - 13:20:33.268 - o.s.web.servlet.DispatcherServlet -  INFO  - Completed initialization in 28 ms
+20 Feb 2025 - 13:20:33.404 - c.example.controller.AuthController -  INFO  - login authDTO: AuthDTO(phone=+998908070144, password=123456)
+20 Feb 2025 - 13:20:46.048 - c.example.controller.AuthController -  INFO  - login authDTO: AuthDTO(phone=+998908070144, password=123456)
+20 Feb 2025 - 13:20:51.432 - c.example.controller.AuthController -  INFO  - login authDTO: AuthDTO(phone=+998908070144, password=123456)
+20 Feb 2025 - 13:44:27.392 - o.a.coyote.http11.Http11Processor -  INFO  - Error parsing HTTP request header
+ Note: further occurrences of HTTP request parsing errors will be logged at DEBUG level.
+java.lang.IllegalArgumentException: Invalid character found in method name [0x160x030x010x060xa00x010x000x060x9c0x030x030xd7hG\:0x8b0x0fqH0xdf0x9f0x9d0x0c|}0x120xf60xf4{P0xafe0x010xfd0xa20xe70x860x82'0x89y@ ]. HTTP method names must be tokens
+	at org.apache.coyote.http11.Http11InputBuffer.parseRequestLine(Http11InputBuffer.java:406)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:270)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:905)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1741)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1190)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+20 Feb 2025 - 14:51:40.801 - o.s.b.w.e.tomcat.GracefulShutdown -  INFO  - Commencing graceful shutdown. Waiting for active requests to complete
+20 Feb 2025 - 14:51:40.805 - o.s.b.w.e.tomcat.GracefulShutdown -  INFO  - Graceful shutdown complete
+20 Feb 2025 - 14:51:40.812 - o.s.o.j.LocalContainerEntityManagerFactoryBean -  INFO  - Closing JPA EntityManagerFactory for persistence unit 'default'
+20 Feb 2025 - 14:51:40.814 - com.zaxxer.hikari.HikariDataSource -  INFO  - HikariPool-1 - Shutdown initiated...
+20 Feb 2025 - 14:51:40.817 - com.zaxxer.hikari.HikariDataSource -  INFO  - HikariPool-1 - Shutdown completed.

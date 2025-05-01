@@ -1,0 +1,1 @@
+insert into book(description,title)values ('test description','test title')

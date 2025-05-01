@@ -1,0 +1,19 @@
+### upload image
+POST localhost:8080/api/v1/attach/upload
+Content-Type: multipart/form-data; boundary=WebAppBoundary
+
+--WebAppBoundary
+Content-Disposition: form-data; name="file"; filename=sanjarGr.jpg
+
+< C:\Users\Sanjar\Desktop\sanjarGr.jpg
+
+
+### open image
+GET localhost:8080/api/v1/attach/open/4.jpg
+
+### open by id image
+GET localhost:8080/api/v1/attach/open/img/706c4101-8e04-4a1a-9816-b8004e7e7e28
+### open by id general
+GET localhost:8080/api/v1/attach/open/general/c611b526-665c-4606-8509-8c66f179a52e
+### download by id
+GET localhost:8080/api/v1/attach/download/1fc3f9bb-ae02-48e4-bd93-c6f73c96e7c2

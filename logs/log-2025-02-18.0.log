@@ -1,0 +1,349 @@
+18 Feb 2025 - 19:50:33.780 - c.example.KunUzPractiseApplication -  INFO  - Starting KunUzPractiseApplication using Java 23.0.1 with PID 9236 (C:\Users\Sanjar\IdeaProjects\kun_uz_practise\target\classes started by Sanjar in C:\Users\Sanjar\IdeaProjects\kun_uz_practise)
+18 Feb 2025 - 19:50:33.793 - c.example.KunUzPractiseApplication -  INFO  - The following 1 profile is active: "local"
+18 Feb 2025 - 19:50:34.491 - o.s.d.r.c.RepositoryConfigurationDelegate -  INFO  - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+18 Feb 2025 - 19:50:34.572 - o.s.d.r.c.RepositoryConfigurationDelegate -  INFO  - Finished Spring Data repository scanning in 73 ms. Found 14 JPA repository interfaces.
+18 Feb 2025 - 19:50:35.064 - o.s.b.w.e.tomcat.TomcatWebServer -  INFO  - Tomcat initialized with port 8080 (http)
+18 Feb 2025 - 19:50:35.077 - o.a.catalina.core.StandardService -  INFO  - Starting service [Tomcat]
+18 Feb 2025 - 19:50:35.077 - o.a.catalina.core.StandardEngine -  INFO  - Starting Servlet engine: [Apache Tomcat/10.1.34]
+18 Feb 2025 - 19:50:35.118 - o.a.c.c.C.[Tomcat].[localhost].[/] -  INFO  - Initializing Spring embedded WebApplicationContext
+18 Feb 2025 - 19:50:35.118 - o.s.b.w.s.c.ServletWebServerApplicationContext -  INFO  - Root WebApplicationContext: initialization completed in 1277 ms
+18 Feb 2025 - 19:50:35.243 - o.h.jpa.internal.util.LogHelper -  INFO  - HHH000204: Processing PersistenceUnitInfo [name: default]
+18 Feb 2025 - 19:50:35.294 - org.hibernate.Version -  INFO  - HHH000412: Hibernate ORM core version 6.6.5.Final
+18 Feb 2025 - 19:50:35.340 - o.h.c.i.RegionFactoryInitiator -  INFO  - HHH000026: Second-level cache disabled
+18 Feb 2025 - 19:50:35.571 - o.s.o.j.p.SpringPersistenceUnitInfo -  INFO  - No LoadTimeWeaver setup: ignoring JPA class transformer
+18 Feb 2025 - 19:50:35.595 - com.zaxxer.hikari.HikariDataSource -  INFO  - HikariPool-1 - Starting...
+18 Feb 2025 - 19:50:35.724 - com.zaxxer.hikari.pool.HikariPool -  INFO  - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@87aec6a
+18 Feb 2025 - 19:50:35.726 - com.zaxxer.hikari.HikariDataSource -  INFO  - HikariPool-1 - Start completed.
+18 Feb 2025 - 19:50:35.790 - o.hibernate.orm.connections.pooling -  INFO  - HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 17.2
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+18 Feb 2025 - 19:50:36.906 - o.h.e.t.j.p.i.JtaPlatformInitiator -  INFO  - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+18 Feb 2025 - 19:50:37.545 - o.s.o.j.LocalContainerEntityManagerFactoryBean -  INFO  - Initialized JPA EntityManagerFactory for persistence unit 'default'
+18 Feb 2025 - 19:50:37.797 - o.s.d.j.r.query.QueryEnhancerFactory -  INFO  - Hibernate is in classpath; If applicable, HQL parser will be used.
+18 Feb 2025 - 19:50:39.171 - o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration -  WARN  - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+18 Feb 2025 - 19:50:39.205 - o.s.s.c.a.a.c.InitializeAuthenticationProviderBeanManagerConfigurer$InitializeAuthenticationProviderManagerConfigurer -  INFO  - Global AuthenticationManager configured with AuthenticationProvider bean with name authenticationProvider
+18 Feb 2025 - 19:50:39.206 - o.s.s.c.a.a.c.InitializeUserDetailsBeanManagerConfigurer$InitializeUserDetailsManagerConfigurer -  WARN  - Global AuthenticationManager configured with an AuthenticationProvider bean. UserDetailsService beans will not be used by Spring Security for automatically configuring username/password login. Consider removing the AuthenticationProvider bean. Alternatively, consider using the UserDetailsService in a manually instantiated DaoAuthenticationProvider. If the current configuration is intentional, to turn off this warning, increase the logging level of 'org.springframework.security.config.annotation.authentication.configuration.InitializeUserDetailsBeanManagerConfigurer' to ERROR
+18 Feb 2025 - 19:50:39.778 - o.s.b.w.e.tomcat.TomcatWebServer -  INFO  - Tomcat started on port 8080 (http) with context path '/'
+18 Feb 2025 - 19:50:39.785 - c.example.KunUzPractiseApplication -  INFO  - Started KunUzPractiseApplication in 6.423 seconds (process running for 7.028)
+18 Feb 2025 - 19:59:10.598 - o.s.b.w.e.tomcat.GracefulShutdown -  INFO  - Commencing graceful shutdown. Waiting for active requests to complete
+18 Feb 2025 - 19:59:10.602 - o.s.b.w.e.tomcat.GracefulShutdown -  INFO  - Graceful shutdown complete
+18 Feb 2025 - 19:59:10.609 - o.s.o.j.LocalContainerEntityManagerFactoryBean -  INFO  - Closing JPA EntityManagerFactory for persistence unit 'default'
+18 Feb 2025 - 19:59:10.611 - com.zaxxer.hikari.HikariDataSource -  INFO  - HikariPool-1 - Shutdown initiated...
+18 Feb 2025 - 19:59:10.614 - com.zaxxer.hikari.HikariDataSource -  INFO  - HikariPool-1 - Shutdown completed.
+18 Feb 2025 - 19:59:13.221 - c.example.KunUzPractiseApplication -  INFO  - Starting KunUzPractiseApplication using Java 23.0.1 with PID 7132 (C:\Users\Sanjar\IdeaProjects\kun_uz_practise\target\classes started by Sanjar in C:\Users\Sanjar\IdeaProjects\kun_uz_practise)
+18 Feb 2025 - 19:59:13.230 - c.example.KunUzPractiseApplication -  INFO  - The following 1 profile is active: "local"
+18 Feb 2025 - 19:59:14.010 - o.s.d.r.c.RepositoryConfigurationDelegate -  INFO  - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+18 Feb 2025 - 19:59:14.094 - o.s.d.r.c.RepositoryConfigurationDelegate -  INFO  - Finished Spring Data repository scanning in 76 ms. Found 14 JPA repository interfaces.
+18 Feb 2025 - 19:59:14.594 - o.s.b.w.e.tomcat.TomcatWebServer -  INFO  - Tomcat initialized with port 8080 (http)
+18 Feb 2025 - 19:59:14.614 - o.a.catalina.core.StandardService -  INFO  - Starting service [Tomcat]
+18 Feb 2025 - 19:59:14.614 - o.a.catalina.core.StandardEngine -  INFO  - Starting Servlet engine: [Apache Tomcat/10.1.34]
+18 Feb 2025 - 19:59:14.655 - o.a.c.c.C.[Tomcat].[localhost].[/] -  INFO  - Initializing Spring embedded WebApplicationContext
+18 Feb 2025 - 19:59:14.656 - o.s.b.w.s.c.ServletWebServerApplicationContext -  INFO  - Root WebApplicationContext: initialization completed in 1375 ms
+18 Feb 2025 - 19:59:14.727 - com.zaxxer.hikari.HikariDataSource -  INFO  - HikariPool-1 - Starting...
+18 Feb 2025 - 19:59:14.884 - com.zaxxer.hikari.pool.HikariPool -  INFO  - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@3af2f846
+18 Feb 2025 - 19:59:14.886 - com.zaxxer.hikari.HikariDataSource -  INFO  - HikariPool-1 - Start completed.
+18 Feb 2025 - 19:59:14.969 - o.h.jpa.internal.util.LogHelper -  INFO  - HHH000204: Processing PersistenceUnitInfo [name: default]
+18 Feb 2025 - 19:59:15.014 - org.hibernate.Version -  INFO  - HHH000412: Hibernate ORM core version 6.6.5.Final
+18 Feb 2025 - 19:59:15.043 - o.h.c.i.RegionFactoryInitiator -  INFO  - HHH000026: Second-level cache disabled
+18 Feb 2025 - 19:59:15.288 - o.s.o.j.p.SpringPersistenceUnitInfo -  INFO  - No LoadTimeWeaver setup: ignoring JPA class transformer
+18 Feb 2025 - 19:59:15.362 - o.hibernate.orm.connections.pooling -  INFO  - HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 17.2
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+18 Feb 2025 - 19:59:16.478 - o.h.e.t.j.p.i.JtaPlatformInitiator -  INFO  - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+18 Feb 2025 - 19:59:17.146 - o.s.o.j.LocalContainerEntityManagerFactoryBean -  INFO  - Initialized JPA EntityManagerFactory for persistence unit 'default'
+18 Feb 2025 - 19:59:17.402 - o.s.d.j.r.query.QueryEnhancerFactory -  INFO  - Hibernate is in classpath; If applicable, HQL parser will be used.
+18 Feb 2025 - 19:59:18.787 - o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration -  WARN  - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+18 Feb 2025 - 19:59:18.817 - o.s.s.c.a.a.c.InitializeAuthenticationProviderBeanManagerConfigurer$InitializeAuthenticationProviderManagerConfigurer -  INFO  - Global AuthenticationManager configured with AuthenticationProvider bean with name authenticationProvider
+18 Feb 2025 - 19:59:18.817 - o.s.s.c.a.a.c.InitializeUserDetailsBeanManagerConfigurer$InitializeUserDetailsManagerConfigurer -  WARN  - Global AuthenticationManager configured with an AuthenticationProvider bean. UserDetailsService beans will not be used by Spring Security for automatically configuring username/password login. Consider removing the AuthenticationProvider bean. Alternatively, consider using the UserDetailsService in a manually instantiated DaoAuthenticationProvider. If the current configuration is intentional, to turn off this warning, increase the logging level of 'org.springframework.security.config.annotation.authentication.configuration.InitializeUserDetailsBeanManagerConfigurer' to ERROR
+18 Feb 2025 - 19:59:19.391 - o.s.b.w.e.tomcat.TomcatWebServer -  INFO  - Tomcat started on port 8080 (http) with context path '/'
+18 Feb 2025 - 19:59:19.399 - c.example.KunUzPractiseApplication -  INFO  - Started KunUzPractiseApplication in 6.586 seconds (process running for 7.267)
+18 Feb 2025 - 20:01:28.237 - o.s.b.w.e.tomcat.GracefulShutdown -  INFO  - Commencing graceful shutdown. Waiting for active requests to complete
+18 Feb 2025 - 20:01:28.242 - o.s.b.w.e.tomcat.GracefulShutdown -  INFO  - Graceful shutdown complete
+18 Feb 2025 - 20:01:28.248 - o.s.o.j.LocalContainerEntityManagerFactoryBean -  INFO  - Closing JPA EntityManagerFactory for persistence unit 'default'
+18 Feb 2025 - 20:01:28.251 - com.zaxxer.hikari.HikariDataSource -  INFO  - HikariPool-1 - Shutdown initiated...
+18 Feb 2025 - 20:01:28.254 - com.zaxxer.hikari.HikariDataSource -  INFO  - HikariPool-1 - Shutdown completed.
+18 Feb 2025 - 20:01:30.422 - c.example.KunUzPractiseApplication -  INFO  - Starting KunUzPractiseApplication using Java 23.0.1 with PID 5456 (C:\Users\Sanjar\IdeaProjects\kun_uz_practise\target\classes started by Sanjar in C:\Users\Sanjar\IdeaProjects\kun_uz_practise)
+18 Feb 2025 - 20:01:30.432 - c.example.KunUzPractiseApplication -  INFO  - The following 1 profile is active: "local"
+18 Feb 2025 - 20:01:31.112 - o.s.d.r.c.RepositoryConfigurationDelegate -  INFO  - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+18 Feb 2025 - 20:01:31.199 - o.s.d.r.c.RepositoryConfigurationDelegate -  INFO  - Finished Spring Data repository scanning in 75 ms. Found 14 JPA repository interfaces.
+18 Feb 2025 - 20:01:31.685 - o.s.b.w.e.tomcat.TomcatWebServer -  INFO  - Tomcat initialized with port 8080 (http)
+18 Feb 2025 - 20:01:31.696 - o.a.catalina.core.StandardService -  INFO  - Starting service [Tomcat]
+18 Feb 2025 - 20:01:31.696 - o.a.catalina.core.StandardEngine -  INFO  - Starting Servlet engine: [Apache Tomcat/10.1.34]
+18 Feb 2025 - 20:01:31.745 - o.a.c.c.C.[Tomcat].[localhost].[/] -  INFO  - Initializing Spring embedded WebApplicationContext
+18 Feb 2025 - 20:01:31.745 - o.s.b.w.s.c.ServletWebServerApplicationContext -  INFO  - Root WebApplicationContext: initialization completed in 1262 ms
+18 Feb 2025 - 20:01:31.810 - com.zaxxer.hikari.HikariDataSource -  INFO  - HikariPool-1 - Starting...
+18 Feb 2025 - 20:01:31.966 - com.zaxxer.hikari.pool.HikariPool -  INFO  - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@3e856100
+18 Feb 2025 - 20:01:31.967 - com.zaxxer.hikari.HikariDataSource -  INFO  - HikariPool-1 - Start completed.
+18 Feb 2025 - 20:01:32.044 - o.h.jpa.internal.util.LogHelper -  INFO  - HHH000204: Processing PersistenceUnitInfo [name: default]
+18 Feb 2025 - 20:01:32.092 - org.hibernate.Version -  INFO  - HHH000412: Hibernate ORM core version 6.6.5.Final
+18 Feb 2025 - 20:01:32.120 - o.h.c.i.RegionFactoryInitiator -  INFO  - HHH000026: Second-level cache disabled
+18 Feb 2025 - 20:01:32.362 - o.s.o.j.p.SpringPersistenceUnitInfo -  INFO  - No LoadTimeWeaver setup: ignoring JPA class transformer
+18 Feb 2025 - 20:01:32.440 - o.hibernate.orm.connections.pooling -  INFO  - HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 17.2
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+18 Feb 2025 - 20:01:33.552 - o.h.e.t.j.p.i.JtaPlatformInitiator -  INFO  - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+18 Feb 2025 - 20:01:34.201 - o.s.o.j.LocalContainerEntityManagerFactoryBean -  INFO  - Initialized JPA EntityManagerFactory for persistence unit 'default'
+18 Feb 2025 - 20:01:34.454 - o.s.d.j.r.query.QueryEnhancerFactory -  INFO  - Hibernate is in classpath; If applicable, HQL parser will be used.
+18 Feb 2025 - 20:01:35.823 - o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration -  WARN  - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+18 Feb 2025 - 20:01:35.852 - o.s.s.c.a.a.c.InitializeAuthenticationProviderBeanManagerConfigurer$InitializeAuthenticationProviderManagerConfigurer -  INFO  - Global AuthenticationManager configured with AuthenticationProvider bean with name authenticationProvider
+18 Feb 2025 - 20:01:35.852 - o.s.s.c.a.a.c.InitializeUserDetailsBeanManagerConfigurer$InitializeUserDetailsManagerConfigurer -  WARN  - Global AuthenticationManager configured with an AuthenticationProvider bean. UserDetailsService beans will not be used by Spring Security for automatically configuring username/password login. Consider removing the AuthenticationProvider bean. Alternatively, consider using the UserDetailsService in a manually instantiated DaoAuthenticationProvider. If the current configuration is intentional, to turn off this warning, increase the logging level of 'org.springframework.security.config.annotation.authentication.configuration.InitializeUserDetailsBeanManagerConfigurer' to ERROR
+18 Feb 2025 - 20:01:36.426 - o.s.b.w.e.tomcat.TomcatWebServer -  INFO  - Tomcat started on port 8080 (http) with context path '/'
+18 Feb 2025 - 20:01:36.433 - c.example.KunUzPractiseApplication -  INFO  - Started KunUzPractiseApplication in 6.425 seconds (process running for 7.005)
+18 Feb 2025 - 20:05:16.142 - o.s.b.w.e.tomcat.GracefulShutdown -  INFO  - Commencing graceful shutdown. Waiting for active requests to complete
+18 Feb 2025 - 20:05:16.148 - o.s.b.w.e.tomcat.GracefulShutdown -  INFO  - Graceful shutdown complete
+18 Feb 2025 - 20:05:16.155 - o.s.o.j.LocalContainerEntityManagerFactoryBean -  INFO  - Closing JPA EntityManagerFactory for persistence unit 'default'
+18 Feb 2025 - 20:05:16.157 - com.zaxxer.hikari.HikariDataSource -  INFO  - HikariPool-1 - Shutdown initiated...
+18 Feb 2025 - 20:05:16.162 - com.zaxxer.hikari.HikariDataSource -  INFO  - HikariPool-1 - Shutdown completed.
+18 Feb 2025 - 20:05:18.204 - c.example.KunUzPractiseApplication -  INFO  - Starting KunUzPractiseApplication using Java 23.0.1 with PID 16024 (C:\Users\Sanjar\IdeaProjects\kun_uz_practise\target\classes started by Sanjar in C:\Users\Sanjar\IdeaProjects\kun_uz_practise)
+18 Feb 2025 - 20:05:18.213 - c.example.KunUzPractiseApplication -  INFO  - The following 1 profile is active: "local"
+18 Feb 2025 - 20:05:18.884 - o.s.d.r.c.RepositoryConfigurationDelegate -  INFO  - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+18 Feb 2025 - 20:05:18.974 - o.s.d.r.c.RepositoryConfigurationDelegate -  INFO  - Finished Spring Data repository scanning in 75 ms. Found 14 JPA repository interfaces.
+18 Feb 2025 - 20:05:19.489 - o.s.b.w.e.tomcat.TomcatWebServer -  INFO  - Tomcat initialized with port 8080 (http)
+18 Feb 2025 - 20:05:19.500 - o.a.catalina.core.StandardService -  INFO  - Starting service [Tomcat]
+18 Feb 2025 - 20:05:19.500 - o.a.catalina.core.StandardEngine -  INFO  - Starting Servlet engine: [Apache Tomcat/10.1.34]
+18 Feb 2025 - 20:05:19.549 - o.a.c.c.C.[Tomcat].[localhost].[/] -  INFO  - Initializing Spring embedded WebApplicationContext
+18 Feb 2025 - 20:05:19.549 - o.s.b.w.s.c.ServletWebServerApplicationContext -  INFO  - Root WebApplicationContext: initialization completed in 1286 ms
+18 Feb 2025 - 20:05:19.613 - com.zaxxer.hikari.HikariDataSource -  INFO  - HikariPool-1 - Starting...
+18 Feb 2025 - 20:05:19.769 - com.zaxxer.hikari.pool.HikariPool -  INFO  - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@111c229c
+18 Feb 2025 - 20:05:19.771 - com.zaxxer.hikari.HikariDataSource -  INFO  - HikariPool-1 - Start completed.
+18 Feb 2025 - 20:05:19.849 - o.h.jpa.internal.util.LogHelper -  INFO  - HHH000204: Processing PersistenceUnitInfo [name: default]
+18 Feb 2025 - 20:05:19.898 - org.hibernate.Version -  INFO  - HHH000412: Hibernate ORM core version 6.6.5.Final
+18 Feb 2025 - 20:05:19.930 - o.h.c.i.RegionFactoryInitiator -  INFO  - HHH000026: Second-level cache disabled
+18 Feb 2025 - 20:05:20.176 - o.s.o.j.p.SpringPersistenceUnitInfo -  INFO  - No LoadTimeWeaver setup: ignoring JPA class transformer
+18 Feb 2025 - 20:05:20.253 - o.hibernate.orm.connections.pooling -  INFO  - HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 17.2
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+18 Feb 2025 - 20:05:21.427 - o.h.e.t.j.p.i.JtaPlatformInitiator -  INFO  - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+18 Feb 2025 - 20:05:22.075 - o.s.o.j.LocalContainerEntityManagerFactoryBean -  INFO  - Initialized JPA EntityManagerFactory for persistence unit 'default'
+18 Feb 2025 - 20:05:22.332 - o.s.d.j.r.query.QueryEnhancerFactory -  INFO  - Hibernate is in classpath; If applicable, HQL parser will be used.
+18 Feb 2025 - 20:05:23.690 - o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration -  WARN  - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+18 Feb 2025 - 20:05:23.719 - o.s.s.c.a.a.c.InitializeAuthenticationProviderBeanManagerConfigurer$InitializeAuthenticationProviderManagerConfigurer -  INFO  - Global AuthenticationManager configured with AuthenticationProvider bean with name authenticationProvider
+18 Feb 2025 - 20:05:23.719 - o.s.s.c.a.a.c.InitializeUserDetailsBeanManagerConfigurer$InitializeUserDetailsManagerConfigurer -  WARN  - Global AuthenticationManager configured with an AuthenticationProvider bean. UserDetailsService beans will not be used by Spring Security for automatically configuring username/password login. Consider removing the AuthenticationProvider bean. Alternatively, consider using the UserDetailsService in a manually instantiated DaoAuthenticationProvider. If the current configuration is intentional, to turn off this warning, increase the logging level of 'org.springframework.security.config.annotation.authentication.configuration.InitializeUserDetailsBeanManagerConfigurer' to ERROR
+18 Feb 2025 - 20:05:24.288 - o.s.b.w.e.tomcat.TomcatWebServer -  INFO  - Tomcat started on port 8080 (http) with context path '/'
+18 Feb 2025 - 20:05:24.295 - c.example.KunUzPractiseApplication -  INFO  - Started KunUzPractiseApplication in 6.497 seconds (process running for 7.089)
+18 Feb 2025 - 20:09:04.083 - o.s.b.w.e.tomcat.GracefulShutdown -  INFO  - Commencing graceful shutdown. Waiting for active requests to complete
+18 Feb 2025 - 20:09:04.088 - o.s.b.w.e.tomcat.GracefulShutdown -  INFO  - Graceful shutdown complete
+18 Feb 2025 - 20:09:04.096 - o.s.o.j.LocalContainerEntityManagerFactoryBean -  INFO  - Closing JPA EntityManagerFactory for persistence unit 'default'
+18 Feb 2025 - 20:09:04.098 - com.zaxxer.hikari.HikariDataSource -  INFO  - HikariPool-1 - Shutdown initiated...
+18 Feb 2025 - 20:09:04.102 - com.zaxxer.hikari.HikariDataSource -  INFO  - HikariPool-1 - Shutdown completed.
+18 Feb 2025 - 20:09:06.146 - c.example.KunUzPractiseApplication -  INFO  - Starting KunUzPractiseApplication using Java 23.0.1 with PID 13080 (C:\Users\Sanjar\IdeaProjects\kun_uz_practise\target\classes started by Sanjar in C:\Users\Sanjar\IdeaProjects\kun_uz_practise)
+18 Feb 2025 - 20:09:06.157 - c.example.KunUzPractiseApplication -  INFO  - The following 1 profile is active: "local"
+18 Feb 2025 - 20:09:06.858 - o.s.d.r.c.RepositoryConfigurationDelegate -  INFO  - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+18 Feb 2025 - 20:09:06.942 - o.s.d.r.c.RepositoryConfigurationDelegate -  INFO  - Finished Spring Data repository scanning in 76 ms. Found 14 JPA repository interfaces.
+18 Feb 2025 - 20:09:07.435 - o.s.b.w.e.tomcat.TomcatWebServer -  INFO  - Tomcat initialized with port 8080 (http)
+18 Feb 2025 - 20:09:07.447 - o.a.catalina.core.StandardService -  INFO  - Starting service [Tomcat]
+18 Feb 2025 - 20:09:07.448 - o.a.catalina.core.StandardEngine -  INFO  - Starting Servlet engine: [Apache Tomcat/10.1.34]
+18 Feb 2025 - 20:09:07.506 - o.a.c.c.C.[Tomcat].[localhost].[/] -  INFO  - Initializing Spring embedded WebApplicationContext
+18 Feb 2025 - 20:09:07.506 - o.s.b.w.s.c.ServletWebServerApplicationContext -  INFO  - Root WebApplicationContext: initialization completed in 1295 ms
+18 Feb 2025 - 20:09:07.620 - o.h.jpa.internal.util.LogHelper -  INFO  - HHH000204: Processing PersistenceUnitInfo [name: default]
+18 Feb 2025 - 20:09:07.676 - org.hibernate.Version -  INFO  - HHH000412: Hibernate ORM core version 6.6.5.Final
+18 Feb 2025 - 20:09:07.722 - o.h.c.i.RegionFactoryInitiator -  INFO  - HHH000026: Second-level cache disabled
+18 Feb 2025 - 20:09:07.960 - o.s.o.j.p.SpringPersistenceUnitInfo -  INFO  - No LoadTimeWeaver setup: ignoring JPA class transformer
+18 Feb 2025 - 20:09:07.986 - com.zaxxer.hikari.HikariDataSource -  INFO  - HikariPool-1 - Starting...
+18 Feb 2025 - 20:09:08.114 - com.zaxxer.hikari.pool.HikariPool -  INFO  - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@7db47323
+18 Feb 2025 - 20:09:08.115 - com.zaxxer.hikari.HikariDataSource -  INFO  - HikariPool-1 - Start completed.
+18 Feb 2025 - 20:09:08.180 - o.hibernate.orm.connections.pooling -  INFO  - HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 17.2
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+18 Feb 2025 - 20:09:09.336 - o.h.e.t.j.p.i.JtaPlatformInitiator -  INFO  - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+18 Feb 2025 - 20:09:09.999 - o.s.o.j.LocalContainerEntityManagerFactoryBean -  INFO  - Initialized JPA EntityManagerFactory for persistence unit 'default'
+18 Feb 2025 - 20:09:10.298 - o.s.d.j.r.query.QueryEnhancerFactory -  INFO  - Hibernate is in classpath; If applicable, HQL parser will be used.
+18 Feb 2025 - 20:09:11.812 - o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration -  WARN  - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+18 Feb 2025 - 20:09:11.846 - o.s.s.c.a.a.c.InitializeAuthenticationProviderBeanManagerConfigurer$InitializeAuthenticationProviderManagerConfigurer -  INFO  - Global AuthenticationManager configured with AuthenticationProvider bean with name authenticationProvider
+18 Feb 2025 - 20:09:11.847 - o.s.s.c.a.a.c.InitializeUserDetailsBeanManagerConfigurer$InitializeUserDetailsManagerConfigurer -  WARN  - Global AuthenticationManager configured with an AuthenticationProvider bean. UserDetailsService beans will not be used by Spring Security for automatically configuring username/password login. Consider removing the AuthenticationProvider bean. Alternatively, consider using the UserDetailsService in a manually instantiated DaoAuthenticationProvider. If the current configuration is intentional, to turn off this warning, increase the logging level of 'org.springframework.security.config.annotation.authentication.configuration.InitializeUserDetailsBeanManagerConfigurer' to ERROR
+18 Feb 2025 - 20:09:12.494 - o.s.b.w.e.tomcat.TomcatWebServer -  INFO  - Tomcat started on port 8080 (http) with context path '/'
+18 Feb 2025 - 20:09:12.501 - c.example.KunUzPractiseApplication -  INFO  - Started KunUzPractiseApplication in 6.776 seconds (process running for 7.393)
+18 Feb 2025 - 20:10:23.782 - o.s.b.w.e.tomcat.GracefulShutdown -  INFO  - Commencing graceful shutdown. Waiting for active requests to complete
+18 Feb 2025 - 20:10:23.787 - o.s.b.w.e.tomcat.GracefulShutdown -  INFO  - Graceful shutdown complete
+18 Feb 2025 - 20:10:23.795 - o.s.o.j.LocalContainerEntityManagerFactoryBean -  INFO  - Closing JPA EntityManagerFactory for persistence unit 'default'
+18 Feb 2025 - 20:10:23.797 - com.zaxxer.hikari.HikariDataSource -  INFO  - HikariPool-1 - Shutdown initiated...
+18 Feb 2025 - 20:10:23.800 - com.zaxxer.hikari.HikariDataSource -  INFO  - HikariPool-1 - Shutdown completed.
+18 Feb 2025 - 20:10:25.851 - c.example.KunUzPractiseApplication -  INFO  - Starting KunUzPractiseApplication using Java 23.0.1 with PID 8088 (C:\Users\Sanjar\IdeaProjects\kun_uz_practise\target\classes started by Sanjar in C:\Users\Sanjar\IdeaProjects\kun_uz_practise)
+18 Feb 2025 - 20:10:25.861 - c.example.KunUzPractiseApplication -  INFO  - The following 1 profile is active: "local"
+18 Feb 2025 - 20:10:26.569 - o.s.d.r.c.RepositoryConfigurationDelegate -  INFO  - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+18 Feb 2025 - 20:10:26.654 - o.s.d.r.c.RepositoryConfigurationDelegate -  INFO  - Finished Spring Data repository scanning in 77 ms. Found 14 JPA repository interfaces.
+18 Feb 2025 - 20:10:27.154 - o.s.b.w.e.tomcat.TomcatWebServer -  INFO  - Tomcat initialized with port 8080 (http)
+18 Feb 2025 - 20:10:27.168 - o.a.catalina.core.StandardService -  INFO  - Starting service [Tomcat]
+18 Feb 2025 - 20:10:27.168 - o.a.catalina.core.StandardEngine -  INFO  - Starting Servlet engine: [Apache Tomcat/10.1.34]
+18 Feb 2025 - 20:10:27.215 - o.a.c.c.C.[Tomcat].[localhost].[/] -  INFO  - Initializing Spring embedded WebApplicationContext
+18 Feb 2025 - 20:10:27.216 - o.s.b.w.s.c.ServletWebServerApplicationContext -  INFO  - Root WebApplicationContext: initialization completed in 1306 ms
+18 Feb 2025 - 20:10:27.345 - o.h.jpa.internal.util.LogHelper -  INFO  - HHH000204: Processing PersistenceUnitInfo [name: default]
+18 Feb 2025 - 20:10:27.404 - org.hibernate.Version -  INFO  - HHH000412: Hibernate ORM core version 6.6.5.Final
+18 Feb 2025 - 20:10:27.450 - o.h.c.i.RegionFactoryInitiator -  INFO  - HHH000026: Second-level cache disabled
+18 Feb 2025 - 20:10:27.712 - o.s.o.j.p.SpringPersistenceUnitInfo -  INFO  - No LoadTimeWeaver setup: ignoring JPA class transformer
+18 Feb 2025 - 20:10:27.741 - com.zaxxer.hikari.HikariDataSource -  INFO  - HikariPool-1 - Starting...
+18 Feb 2025 - 20:10:27.887 - com.zaxxer.hikari.pool.HikariPool -  INFO  - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@419f0ea
+18 Feb 2025 - 20:10:27.889 - com.zaxxer.hikari.HikariDataSource -  INFO  - HikariPool-1 - Start completed.
+18 Feb 2025 - 20:10:27.967 - o.hibernate.orm.connections.pooling -  INFO  - HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 17.2
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+18 Feb 2025 - 20:10:29.118 - o.h.e.t.j.p.i.JtaPlatformInitiator -  INFO  - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+18 Feb 2025 - 20:10:29.787 - o.s.o.j.LocalContainerEntityManagerFactoryBean -  INFO  - Initialized JPA EntityManagerFactory for persistence unit 'default'
+18 Feb 2025 - 20:10:30.079 - o.s.d.j.r.query.QueryEnhancerFactory -  INFO  - Hibernate is in classpath; If applicable, HQL parser will be used.
+18 Feb 2025 - 20:10:31.579 - o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration -  WARN  - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+18 Feb 2025 - 20:10:31.612 - o.s.s.c.a.a.c.InitializeAuthenticationProviderBeanManagerConfigurer$InitializeAuthenticationProviderManagerConfigurer -  INFO  - Global AuthenticationManager configured with AuthenticationProvider bean with name authenticationProvider
+18 Feb 2025 - 20:10:31.613 - o.s.s.c.a.a.c.InitializeUserDetailsBeanManagerConfigurer$InitializeUserDetailsManagerConfigurer -  WARN  - Global AuthenticationManager configured with an AuthenticationProvider bean. UserDetailsService beans will not be used by Spring Security for automatically configuring username/password login. Consider removing the AuthenticationProvider bean. Alternatively, consider using the UserDetailsService in a manually instantiated DaoAuthenticationProvider. If the current configuration is intentional, to turn off this warning, increase the logging level of 'org.springframework.security.config.annotation.authentication.configuration.InitializeUserDetailsBeanManagerConfigurer' to ERROR
+18 Feb 2025 - 20:10:32.211 - o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext -  WARN  - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'dataSourceScriptDatabaseInitializer' defined in class path resource [org/springframework/boot/autoconfigure/sql/init/DataSourceInitializationConfiguration.class]: Failed to execute SQL script statement #1 of file [C:\Users\Sanjar\IdeaProjects\kun_uz_practise\target\classes\data.sql]: insert into region (order_num,name_uz,name_ru,name_en,visible,created_date,prt_id) values (1,'Tashkent_uz','Tashkent_ru','Tashkent_en',true,now(),'81274411-b02f-47da-96e1-6d8eef8a3641')
+18 Feb 2025 - 20:10:32.215 - o.s.o.j.LocalContainerEntityManagerFactoryBean -  INFO  - Closing JPA EntityManagerFactory for persistence unit 'default'
+18 Feb 2025 - 20:10:32.217 - com.zaxxer.hikari.HikariDataSource -  INFO  - HikariPool-1 - Shutdown initiated...
+18 Feb 2025 - 20:10:32.220 - com.zaxxer.hikari.HikariDataSource -  INFO  - HikariPool-1 - Shutdown completed.
+18 Feb 2025 - 20:10:32.222 - o.a.catalina.core.StandardService -  INFO  - Stopping service [Tomcat]
+18 Feb 2025 - 20:10:32.230 - o.s.b.a.l.ConditionEvaluationReportLogger -  INFO  - 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+18 Feb 2025 - 20:10:32.257 - o.s.boot.SpringApplication -  ERROR - Application run failed
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'dataSourceScriptDatabaseInitializer' defined in class path resource [org/springframework/boot/autoconfigure/sql/init/DataSourceInitializationConfiguration.class]: Failed to execute SQL script statement #1 of file [C:\Users\Sanjar\IdeaProjects\kun_uz_practise\target\classes\data.sql]: insert into region (order_num,name_uz,name_ru,name_en,visible,created_date,prt_id) values (1,'Tashkent_uz','Tashkent_ru','Tashkent_en',true,now(),'81274411-b02f-47da-96e1-6d8eef8a3641')
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1812)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:601)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:523)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:336)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:307)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:334)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:199)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:312)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:199)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.instantiateSingleton(DefaultListableBeanFactory.java:1122)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingleton(DefaultListableBeanFactory.java:1093)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:1030)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:987)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:627)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:146)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:752)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:439)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:318)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1361)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1350)
+	at com.example.KunUzPractiseApplication.main(KunUzPractiseApplication.java:10)
+Caused by: org.springframework.jdbc.datasource.init.ScriptStatementFailedException: Failed to execute SQL script statement #1 of file [C:\Users\Sanjar\IdeaProjects\kun_uz_practise\target\classes\data.sql]: insert into region (order_num,name_uz,name_ru,name_en,visible,created_date,prt_id) values (1,'Tashkent_uz','Tashkent_ru','Tashkent_en',true,now(),'81274411-b02f-47da-96e1-6d8eef8a3641')
+	at org.springframework.jdbc.datasource.init.ScriptUtils.executeSqlScript(ScriptUtils.java:282)
+	at org.springframework.jdbc.datasource.init.ResourceDatabasePopulator.populate(ResourceDatabasePopulator.java:254)
+	at org.springframework.jdbc.datasource.init.DatabasePopulatorUtils.execute(DatabasePopulatorUtils.java:54)
+	at org.springframework.boot.jdbc.init.DataSourceScriptDatabaseInitializer.runScripts(DataSourceScriptDatabaseInitializer.java:87)
+	at org.springframework.boot.sql.init.AbstractScriptDatabaseInitializer.runScripts(AbstractScriptDatabaseInitializer.java:146)
+	at org.springframework.boot.sql.init.AbstractScriptDatabaseInitializer.applyScripts(AbstractScriptDatabaseInitializer.java:108)
+	at org.springframework.boot.sql.init.AbstractScriptDatabaseInitializer.applyDataScripts(AbstractScriptDatabaseInitializer.java:102)
+	at org.springframework.boot.sql.init.AbstractScriptDatabaseInitializer.initializeDatabase(AbstractScriptDatabaseInitializer.java:77)
+	at org.springframework.boot.sql.init.AbstractScriptDatabaseInitializer.afterPropertiesSet(AbstractScriptDatabaseInitializer.java:66)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1859)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1808)
+	... 20 common frames omitted
+Caused by: org.postgresql.util.PSQLException: ERROR: duplicate key value violates unique constraint "region_pkey"
+  Detail: Key (id)=(2) already exists.
+	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2733)
+	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:2420)
+	at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:372)
+	at org.postgresql.jdbc.PgStatement.executeInternal(PgStatement.java:517)
+	at org.postgresql.jdbc.PgStatement.execute(PgStatement.java:434)
+	at org.postgresql.jdbc.PgStatement.executeWithFlags(PgStatement.java:356)
+	at org.postgresql.jdbc.PgStatement.executeCachedSql(PgStatement.java:341)
+	at org.postgresql.jdbc.PgStatement.executeWithFlags(PgStatement.java:317)
+	at org.postgresql.jdbc.PgStatement.execute(PgStatement.java:312)
+	at com.zaxxer.hikari.pool.ProxyStatement.execute(ProxyStatement.java:94)
+	at com.zaxxer.hikari.pool.HikariProxyStatement.execute(HikariProxyStatement.java)
+	at org.springframework.jdbc.datasource.init.ScriptUtils.executeSqlScript(ScriptUtils.java:261)
+	... 30 common frames omitted
+18 Feb 2025 - 20:10:47.868 - c.example.KunUzPractiseApplication -  INFO  - Starting KunUzPractiseApplication using Java 23.0.1 with PID 7464 (C:\Users\Sanjar\IdeaProjects\kun_uz_practise\target\classes started by Sanjar in C:\Users\Sanjar\IdeaProjects\kun_uz_practise)
+18 Feb 2025 - 20:10:47.877 - c.example.KunUzPractiseApplication -  INFO  - The following 1 profile is active: "local"
+18 Feb 2025 - 20:10:48.584 - o.s.d.r.c.RepositoryConfigurationDelegate -  INFO  - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+18 Feb 2025 - 20:10:48.690 - o.s.d.r.c.RepositoryConfigurationDelegate -  INFO  - Finished Spring Data repository scanning in 98 ms. Found 14 JPA repository interfaces.
+18 Feb 2025 - 20:10:49.213 - o.s.b.w.e.tomcat.TomcatWebServer -  INFO  - Tomcat initialized with port 8080 (http)
+18 Feb 2025 - 20:10:49.233 - o.a.catalina.core.StandardService -  INFO  - Starting service [Tomcat]
+18 Feb 2025 - 20:10:49.234 - o.a.catalina.core.StandardEngine -  INFO  - Starting Servlet engine: [Apache Tomcat/10.1.34]
+18 Feb 2025 - 20:10:49.278 - o.a.c.c.C.[Tomcat].[localhost].[/] -  INFO  - Initializing Spring embedded WebApplicationContext
+18 Feb 2025 - 20:10:49.278 - o.s.b.w.s.c.ServletWebServerApplicationContext -  INFO  - Root WebApplicationContext: initialization completed in 1352 ms
+18 Feb 2025 - 20:10:49.393 - o.h.jpa.internal.util.LogHelper -  INFO  - HHH000204: Processing PersistenceUnitInfo [name: default]
+18 Feb 2025 - 20:10:49.450 - org.hibernate.Version -  INFO  - HHH000412: Hibernate ORM core version 6.6.5.Final
+18 Feb 2025 - 20:10:49.495 - o.h.c.i.RegionFactoryInitiator -  INFO  - HHH000026: Second-level cache disabled
+18 Feb 2025 - 20:10:49.748 - o.s.o.j.p.SpringPersistenceUnitInfo -  INFO  - No LoadTimeWeaver setup: ignoring JPA class transformer
+18 Feb 2025 - 20:10:49.774 - com.zaxxer.hikari.HikariDataSource -  INFO  - HikariPool-1 - Starting...
+18 Feb 2025 - 20:10:50.012 - com.zaxxer.hikari.pool.HikariPool -  INFO  - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@5fe5c68b
+18 Feb 2025 - 20:10:50.014 - com.zaxxer.hikari.HikariDataSource -  INFO  - HikariPool-1 - Start completed.
+18 Feb 2025 - 20:10:50.075 - o.hibernate.orm.connections.pooling -  INFO  - HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 17.2
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+18 Feb 2025 - 20:10:51.217 - o.h.e.t.j.p.i.JtaPlatformInitiator -  INFO  - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+18 Feb 2025 - 20:10:51.865 - o.s.o.j.LocalContainerEntityManagerFactoryBean -  INFO  - Initialized JPA EntityManagerFactory for persistence unit 'default'
+18 Feb 2025 - 20:10:52.125 - o.s.d.j.r.query.QueryEnhancerFactory -  INFO  - Hibernate is in classpath; If applicable, HQL parser will be used.
+18 Feb 2025 - 20:10:53.513 - o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration -  WARN  - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+18 Feb 2025 - 20:10:53.548 - o.s.s.c.a.a.c.InitializeAuthenticationProviderBeanManagerConfigurer$InitializeAuthenticationProviderManagerConfigurer -  INFO  - Global AuthenticationManager configured with AuthenticationProvider bean with name authenticationProvider
+18 Feb 2025 - 20:10:53.549 - o.s.s.c.a.a.c.InitializeUserDetailsBeanManagerConfigurer$InitializeUserDetailsManagerConfigurer -  WARN  - Global AuthenticationManager configured with an AuthenticationProvider bean. UserDetailsService beans will not be used by Spring Security for automatically configuring username/password login. Consider removing the AuthenticationProvider bean. Alternatively, consider using the UserDetailsService in a manually instantiated DaoAuthenticationProvider. If the current configuration is intentional, to turn off this warning, increase the logging level of 'org.springframework.security.config.annotation.authentication.configuration.InitializeUserDetailsBeanManagerConfigurer' to ERROR
+18 Feb 2025 - 20:10:54.142 - o.s.b.w.e.tomcat.TomcatWebServer -  INFO  - Tomcat started on port 8080 (http) with context path '/'
+18 Feb 2025 - 20:10:54.149 - c.example.KunUzPractiseApplication -  INFO  - Started KunUzPractiseApplication in 6.688 seconds (process running for 7.447)
+18 Feb 2025 - 21:08:33.168 - com.zaxxer.hikari.pool.HikariPool -  WARN  - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=10m42s330ms17µs600ns).
+18 Feb 2025 - 21:33:46.089 - o.s.b.w.e.tomcat.GracefulShutdown -  INFO  - Commencing graceful shutdown. Waiting for active requests to complete
+18 Feb 2025 - 21:33:46.095 - o.s.b.w.e.tomcat.GracefulShutdown -  INFO  - Graceful shutdown complete
+18 Feb 2025 - 21:33:46.102 - o.s.o.j.LocalContainerEntityManagerFactoryBean -  INFO  - Closing JPA EntityManagerFactory for persistence unit 'default'
+18 Feb 2025 - 21:33:46.104 - com.zaxxer.hikari.HikariDataSource -  INFO  - HikariPool-1 - Shutdown initiated...
+18 Feb 2025 - 21:33:46.107 - com.zaxxer.hikari.HikariDataSource -  INFO  - HikariPool-1 - Shutdown completed.
+18 Feb 2025 - 21:33:48.310 - c.example.KunUzPractiseApplication -  INFO  - Starting KunUzPractiseApplication using Java 23.0.1 with PID 16072 (C:\Users\Sanjar\IdeaProjects\kun_uz_practise\target\classes started by Sanjar in C:\Users\Sanjar\IdeaProjects\kun_uz_practise)
+18 Feb 2025 - 21:33:48.323 - c.example.KunUzPractiseApplication -  INFO  - The following 1 profile is active: "local"
+18 Feb 2025 - 21:33:49.089 - o.s.d.r.c.RepositoryConfigurationDelegate -  INFO  - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+18 Feb 2025 - 21:33:49.180 - o.s.d.r.c.RepositoryConfigurationDelegate -  INFO  - Finished Spring Data repository scanning in 82 ms. Found 14 JPA repository interfaces.
+18 Feb 2025 - 21:33:49.673 - o.s.b.w.e.tomcat.TomcatWebServer -  INFO  - Tomcat initialized with port 8080 (http)
+18 Feb 2025 - 21:33:49.685 - o.a.catalina.core.StandardService -  INFO  - Starting service [Tomcat]
+18 Feb 2025 - 21:33:49.685 - o.a.catalina.core.StandardEngine -  INFO  - Starting Servlet engine: [Apache Tomcat/10.1.34]
+18 Feb 2025 - 21:33:49.733 - o.a.c.c.C.[Tomcat].[localhost].[/] -  INFO  - Initializing Spring embedded WebApplicationContext
+18 Feb 2025 - 21:33:49.734 - o.s.b.w.s.c.ServletWebServerApplicationContext -  INFO  - Root WebApplicationContext: initialization completed in 1332 ms
+18 Feb 2025 - 21:33:49.796 - com.zaxxer.hikari.HikariDataSource -  INFO  - HikariPool-1 - Starting...
+18 Feb 2025 - 21:33:49.961 - com.zaxxer.hikari.pool.HikariPool -  INFO  - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@58f254b1
+18 Feb 2025 - 21:33:49.963 - com.zaxxer.hikari.HikariDataSource -  INFO  - HikariPool-1 - Start completed.
+18 Feb 2025 - 21:33:50.046 - o.h.jpa.internal.util.LogHelper -  INFO  - HHH000204: Processing PersistenceUnitInfo [name: default]
+18 Feb 2025 - 21:33:50.092 - org.hibernate.Version -  INFO  - HHH000412: Hibernate ORM core version 6.6.5.Final
+18 Feb 2025 - 21:33:50.121 - o.h.c.i.RegionFactoryInitiator -  INFO  - HHH000026: Second-level cache disabled
+18 Feb 2025 - 21:33:50.366 - o.s.o.j.p.SpringPersistenceUnitInfo -  INFO  - No LoadTimeWeaver setup: ignoring JPA class transformer
+18 Feb 2025 - 21:33:50.442 - o.hibernate.orm.connections.pooling -  INFO  - HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 17.2
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+18 Feb 2025 - 21:33:51.546 - o.h.e.t.j.p.i.JtaPlatformInitiator -  INFO  - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+18 Feb 2025 - 21:33:52.211 - o.s.o.j.LocalContainerEntityManagerFactoryBean -  INFO  - Initialized JPA EntityManagerFactory for persistence unit 'default'
+18 Feb 2025 - 21:33:52.471 - o.s.d.j.r.query.QueryEnhancerFactory -  INFO  - Hibernate is in classpath; If applicable, HQL parser will be used.
+18 Feb 2025 - 21:33:53.826 - o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration -  WARN  - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+18 Feb 2025 - 21:33:53.855 - o.s.s.c.a.a.c.InitializeAuthenticationProviderBeanManagerConfigurer$InitializeAuthenticationProviderManagerConfigurer -  INFO  - Global AuthenticationManager configured with AuthenticationProvider bean with name authenticationProvider
+18 Feb 2025 - 21:33:53.856 - o.s.s.c.a.a.c.InitializeUserDetailsBeanManagerConfigurer$InitializeUserDetailsManagerConfigurer -  WARN  - Global AuthenticationManager configured with an AuthenticationProvider bean. UserDetailsService beans will not be used by Spring Security for automatically configuring username/password login. Consider removing the AuthenticationProvider bean. Alternatively, consider using the UserDetailsService in a manually instantiated DaoAuthenticationProvider. If the current configuration is intentional, to turn off this warning, increase the logging level of 'org.springframework.security.config.annotation.authentication.configuration.InitializeUserDetailsBeanManagerConfigurer' to ERROR
+18 Feb 2025 - 21:33:54.427 - o.s.b.w.e.tomcat.TomcatWebServer -  INFO  - Tomcat started on port 8080 (http) with context path '/'
+18 Feb 2025 - 21:33:54.434 - c.example.KunUzPractiseApplication -  INFO  - Started KunUzPractiseApplication in 6.561 seconds (process running for 7.191)
+18 Feb 2025 - 21:37:18.730 - o.s.b.w.e.tomcat.GracefulShutdown -  INFO  - Commencing graceful shutdown. Waiting for active requests to complete
+18 Feb 2025 - 21:37:18.733 - o.s.b.w.e.tomcat.GracefulShutdown -  INFO  - Graceful shutdown complete
+18 Feb 2025 - 21:37:18.741 - o.s.o.j.LocalContainerEntityManagerFactoryBean -  INFO  - Closing JPA EntityManagerFactory for persistence unit 'default'
+18 Feb 2025 - 21:37:18.743 - com.zaxxer.hikari.HikariDataSource -  INFO  - HikariPool-1 - Shutdown initiated...
+18 Feb 2025 - 21:37:18.747 - com.zaxxer.hikari.HikariDataSource -  INFO  - HikariPool-1 - Shutdown completed.

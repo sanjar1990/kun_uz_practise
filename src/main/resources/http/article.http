@@ -1,0 +1,81 @@
+### article create
+POST localhost:8080/api/v1/article
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzUxMiJ9.eyJpYXQiOjE3Mzk3MDg1NzQsImV4cCI6MTczOTc5NDk3NCwiaXNzIjoiS3VuIHV6IHRlc3QgcG9ydGFsaSIsInBob25lIjoiKzk5ODkwODA3MDE3MyIsInJvbGUiOiJST0xFX01PREVSQVRPUiJ9.kA-LsRtqMWq9bxVkyqJ0Tobo0xZhWaji9UmQD6kAYpZebwxnKUgJcKb--Sw85MNpp2EMi0PnxlHu5GobmJRgKQ
+
+{
+  "attachId": "6acf01dc-85aa-4b67-b86e-791fa92a0db2",
+  "title": "Article four",
+  "description": "Description new article four",
+  "content": " Third articlefdsfsfdsfdsfdsfdfdsfdsfdsfdsfdfdsfdsfdsfdsfdsfdsfdsfsdfdfdsfdsfdsfdsfdsfdsfdsfdf",
+  "categoryId": 1,
+  "regionId": 1,
+  "articleTypeList": [1,2],
+  "tagList": [ "25821983-1303-4b11-a5e4-a43e24723d7e","d4e07e6e-b4f9-48b8-864e-ef43f1383a42"]
+}
+
+###  update article
+PUT localhost:8080/api/v1/article/admin/1c982ce0-535d-4e85-b3f2-e332a24cad51
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzUxMiJ9.eyJpYXQiOjE3MzkxMDkxOTEsImV4cCI6MTczOTE5NTU5MSwiaXNzIjoiS3VuIHV6IHRlc3QgcG9ydGFsaSIsImlkIjoiYmVkZWJiNjItMTYzOC00ZDY0LTljMmItZDE0NjgyMzUxMjExIiwicm9sZSI6Ik1PREVSQVRPUiJ9.y-LlQTfpJKblvoOFehqmf_9Z-TQGQliLzmvtLkLUdMDHY4QwzzmuKTHppiBExYDUdk7aF4Ac_Sz_GhTNoMP67A
+
+{
+  "attachId": "df6c566d-b3dc-4a41-8faa-32060ab91ecb",
+  "title": "Article fiveTitle updated",
+  "description": "Article five Description new article updated",
+  "content": "fdsfsfdsfdsfdsfdfdsfdsfdsfdsfdfdsfdsfdsfdsfdsfdsfdsfsdfdfdsfdsfdsfdsfdsfdsfdsfdf",
+  "categoryId": 1,
+  "regionId": 1,
+  "articleTypeList": [1],
+  "tagList": ["2efa265f-a40e-45ee-86d5-1849e2ca767b"]
+}
+
+### delete article
+DELETE localhost:8080/api/v1/article/admin/8f325f3c-f8e3-4f63-b0c5-81fc540835e4
+Authorization: Bearer eyJhbGciOiJIUzUxMiJ9.eyJpYXQiOjE3MzkxMDkxOTEsImV4cCI6MTczOTE5NTU5MSwiaXNzIjoiS3VuIHV6IHRlc3QgcG9ydGFsaSIsImlkIjoiYmVkZWJiNjItMTYzOC00ZDY0LTljMmItZDE0NjgyMzUxMjExIiwicm9sZSI6Ik1PREVSQVRPUiJ9.y-LlQTfpJKblvoOFehqmf_9Z-TQGQliLzmvtLkLUdMDHY4QwzzmuKTHppiBExYDUdk7aF4Ac_Sz_GhTNoMP67A
+
+### update article status published
+PUT localhost:8080/api/v1/article/admin/updateStatus/96b07840-f15b-4c40-9128-da0516a988f0
+Authorization: Bearer eyJhbGciOiJIUzUxMiJ9.eyJpYXQiOjE3MzkxODk3OTIsImV4cCI6MTczOTI3NjE5MiwiaXNzIjoiS3VuIHV6IHRlc3QgcG9ydGFsaSIsImlkIjoiM2JhMTViYTUtZWJmZS00MTFkLWJhYTEtY2QzNjRmZjVlNmM2Iiwicm9sZSI6IlBVQkxJU0hFUiJ9.BtEPOPQBEUq1rG3yqNjyf3Q-wmfh8zZqUnSXkmUqD7YZriLPIoJq197ULQn78FWlX9kZFIK7glgfWlp4Rb297Q
+### get last article by type
+GET localhost:8080/api/v1/article/getByType?typeId=1&limit=3
+Content-Type: application/json
+
+### get last eight article
+GET localhost:8080/api/v1/article/lastEightArticle
+Content-Type: application/json
+
+[
+  "1481f488-122c-48de-b458-53c99429495a",
+  "96b07840-f15b-4c40-9128-da0516a988f0"
+]
+
+### get by id and lang
+GET localhost:8080/api/v1/article/1481f488-122c-48de-b458-53c99429495a
+Accept-Language: en
+### 9. Get Last 4 Article By Types and except given article id.
+GET localhost:8080/api/v1/article/getLastFour?articleId=fee8b438-a1a2-456a-804d-cec667f12d63&typeId=1
+###    10. Get 4 most read articles ArticleShortInfo
+GET localhost:8080/api/v1/article/mostViewed
+###    11. Get Last 4 Article By TagName (Bitta article ni eng ohirida chiqib turadi.) ArticleShortInfo
+GET localhost:8080/api/v1/article/byTag?tagId=2efa265f-a40e-45ee-86d5-1849e2ca767b
+###     12. Get Last 5 Article By Types  And By Region Key ArticleShortInfo
+GET localhost:8080/api/v1/article/byTypeAndRegion?typeId=1&regId=1
+###  13. Get Article list by Region Key (Pagination) ArticleShortInfo
+GET localhost:8080/api/v1/article/getByReg/1?page=1&size=10
+### 14. Get Last 5 Article Category Key ArticleShortInfo
+GET localhost:8080/api/v1/article/getByCategory/1
+###     15. Get Article By Category Key (Pagination) ArticleShortInfo
+GET localhost:8080/api/v1/article/categoryPagination/1?page=1&size=2
+###17. Increase Share View Count by Article Id
+PUT localhost:8080/api/v1/article/increaseShareCount/fee8b438-a1a2-456a-804d-cec667f12d63
+### FIlter article
+POST localhost:8080/api/v1/article/admin/filterArticle?page=1&size=10
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzUxMiJ9.eyJpYXQiOjE3MzkyODEwMTYsImV4cCI6MTczOTM2NzQxNiwiaXNzIjoiS3VuIHV6IHRlc3QgcG9ydGFsaSIsImlkIjoiM2JhMTViYTUtZWJmZS00MTFkLWJhYTEtY2QzNjRmZjVlNmM2Iiwicm9sZSI6IlBVQkxJU0hFUiJ9.6mM_MiQjG6P_3MFrFvalCkOjhr_1oKjyDw8NrKcd-9uArsTnE1f_k1xM8-A3YX52cs62bN-rfLZeKgws9qKxIA
+
+{
+  "cratedDateFrom": "2025-02-02",
+  "createdDateTo": "2025-02-23"
+}
+
